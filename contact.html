@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="images/logo.png">
+  <meta name="description" content="Plantilla web gratuita, moderna y agradable para servidor de Minecraft.">
+  <meta name="author" content="Astronawta">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages/contact.css">
+
+  <title>TierraPrometida | Contacto</title>
+</head>
+<body>
+  <!--Barra de navegación-->
+  <div class="navbar">
+    <div class="menu-mobile">
+      <a href="index.html">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo del servidor" class="logo-img">
+          <h3 class="server-name">TierraPrometida</h3>
+        </div>
+      </a>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="index.html" class="link">Inicio</a>
+      <a href="https://wiki.tierraprometida.top" class="link" target="_blank">Wiki</a>
+      <a href="https://tienda.tierraprometida.top" class="link" target="_blank">Tienda</a>
+      <a href="https://bans.tierraprometida.top" class="link" target="_blank">Sanciones</a>
+      <a href="rules.html" class="link">Reglas</a>
+      <a href="admin-team.html" class="link">Staff</a>
+      <a href="#" class="link active">Contacto</a>
+    </div>
+  </div>
+
+  <!--Encabezado-->
+  <section id="header">
+    <div class="content">
+      <div class="info">
+        <p class="minecraft-server-ip">mc.tierraprometida.com</p>
+        <h1 class="title"><span>Conéctate</span> con nosotros</h1>
+      </div>
+      <p class="description">
+        ¿Tienes un problema y necesitas ayuda? ¡Estamos aquí para escucharte!
+      </p>
+    </div>
+  </section>
+
+  <!--Contactos-->
+  <section id="contacts">
+    <div class="content">
+      <h2 class="section-title">Formulario de contacto</h2>
+
+      <div class="columns">
+        <form class="contact-form" action="" method="POST">
+          <input type="hidden" name="_subject" value="Mensaje desde la página web">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="" class="location-after-submit">
+
+          <div class="row">
+            <label for="name">* Nombre de usuario en el juego (o Nombre real)</label>
+            <input type="text" required id="name" name="name" placeholder="Nombre">
+          </div>
+          <div class="row">
+            <label for="discord-name">Nombre de usuario de Discord + etiqueta</label>
+            <input type="text" id="discord-name" name="discord-name" placeholder="Discord#0012">
+          </div>
+          <div class="row">
+            <label for="email">* Correo electrónico</label>
+            <input type="email" required id="email" name="email" placeholder="correo@example.com">
+          </div>
+          <div class="row">
+            <label for="message">* Mensaje</label>
+            <textarea required id="message" name="message" placeholder="Tengo una pregunta..."></textarea>
+          </div>
+          <div class="form-footer">
+            <p class="alert">Los campos marcados con * son obligatorios</p>
+            <button type="submit">Enviar mensaje <i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </form>
+
+        <a href="https://discord.com/invite/avuTsMUd4r" class="url discord-link" target="_blank">
+          <div class="link">
+            <h5>Únete a nuestro Discord</h5>
+            <div class="link-description">
+              <p class="description">
+                ¡Conéctate con nuestra comunidad y participa en eventos emocionantes!
+                <br>-----------
+                <br><span class="discord-online-users">Ninguno</span> usuarios en línea
+              </p>
+              <div class="icon">
+                <i class="fa-brands fa-discord"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Pie de página-->
+  <footer id="footer">
+    <p class="copyright">&copy; 2024 <span class="server-name-footer">TierraPrometida</span>. Todos los derechos reservados.</p>
+    <div class="social-links">
+        <a href="https://www.tiktok.com/@mc_tierraprometida?is_from_webapp=1&sender_device=pc" class="link tiktok-link" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.youtube.com/@tierraprometidanetwork/videos" class="link youtube-link" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://discord.com/invite/avuTsMUd4r" class="link discord-link-footer" target="_blank"><i class="fa-brands fa-discord"></i></a>
+    </div>
+  </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
+</html>
+
