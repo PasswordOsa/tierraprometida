@@ -14,7 +14,7 @@ const config = {
 
     /*staff
     ------------
-    If you want to create new group, you must add this structure to adminTeamPage:
+    If you want to create new group, you must add this structure to staff:
     <nameOfGroup>: [
         {
             inGameName: "Astronavta",
@@ -271,14 +271,14 @@ const setDataFromConfigToHtml = async () => {
 
             atContent.appendChild(group);
 
-            for (let j = 0; j < config.adminTeamPage[team].length; j++) {
-                let user = config.adminTeamPage[team][j];
+            for (let j = 0; j < config.staff[team].length; j++) {
+                let user = config.staff[team][j];
                 const group = document.querySelector("." + team + " .users");
 
                 const userDiv = document.createElement("div");
                 userDiv.classList.add("user");
 
-                let userSkin = config.adminTeamPage[team][j].skinUrlOrPathToFile;
+                let userSkin = config.staff[team][j].skinUrlOrPathToFile;
 
                 if(userSkin == "") userSkin = await getSkinByUuid(user.inGameName);
                 let rankColor = config.atGroupsDefaultColors[team];
