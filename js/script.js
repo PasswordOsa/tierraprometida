@@ -254,7 +254,7 @@ const setDataFromConfigToHtml = async () => {
         copyIp();
     }
     else if(locationPathname.includes("staff")) {
-        for (let team in config.adminTeamPage) {
+        for (let team in config.staff) {
             const atContent = document.querySelector(".at-content");
             
             const group = document.createElement("div");
