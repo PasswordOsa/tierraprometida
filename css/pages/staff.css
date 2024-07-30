@@ -187,11 +187,11 @@
 
 /*Admin-Team*/
 @media screen and (max-width: 390px) {
-    #admin-team .group .users .user img {
+    #staff .group .users .user img {
         max-width: 100%;
     }
 
-    #admin-team .group .users .user .name {
+    #staff .group .users .user .name {
         font-size: 20px;
     }
 }
