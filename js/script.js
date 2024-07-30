@@ -43,7 +43,7 @@ const config = {
         helpers: "rgba(11, 175, 255, 0.5)",
         builders: "rgba(247, 2, 176, 0.5)",
     },
-    adminTeamPage: {
+    staff: {
         dueños: [
             {
                 inGameName: "McOsa",
