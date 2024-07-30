@@ -12,7 +12,7 @@ const config = {
         discordServerID: "648352532766261268" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
-    /*Admin-Team
+    /*staff
     ------------
     If you want to create new group, you must add this structure to adminTeamPage:
     <nameOfGroup>: [
@@ -36,7 +36,7 @@ const config = {
 
     If you want to change skin type replace userSKinTypeInAdminTeam with something you want from array in comments
     */
-    userSKinTypeInAdminTeam: "full", /*[full, bust, head, face, front, frontFull, skin]*/
+    userSKinTypeInstaff: "full", /*[full, bust, head, face, front, frontFull, skin]*/
     atGroupsDefaultColors: {
         leaders: "rgba(255, 124, 124, 0.5)",
         developers: "rgba(230, 83, 0, 0.5)",
@@ -66,7 +66,7 @@ const config = {
                 rankColor: "rgba(39, 172, 245, 0.8)"
             }
         ],
-        staff: [
+        staffs: [
             {
                 inGameName: "CarlosSoto",
                 rank: "Moderador",
