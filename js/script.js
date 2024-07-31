@@ -91,7 +91,7 @@ const config = {
     Emails are sent via https://formsubmit.co/
     */
     contactPage: {
-        email: "527e149770e300376cf65085c5770ea8"
+        email: "minesourceinc@gmail.com"
     }
 }
 
